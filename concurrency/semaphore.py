@@ -35,7 +35,7 @@ def run(id, sem):
 
 def main():
 
-    sem = Semaphore(3)
+    sem = Semaphore(2)
     tasks = []
 
     for i in range(10):
